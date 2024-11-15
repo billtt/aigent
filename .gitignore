@@ -1,0 +1,6 @@
+.idea
+config/default.json
+node_modules
+sync-back-messages.sh
+sync-config.sh
+test-openai.js

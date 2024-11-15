@@ -1,0 +1,15 @@
+{
+  "openAI": {
+    "apiKey": "YOUR_OPENAI_API_KEY",
+    "inputPrice": "0.005",
+    "outputPrice": "0.015",
+    "maxCompletionTokens": 2000,
+    "maxPromptTokens": 5000,
+    "model": "gpt-4o"
+  },
+  "apiServer": {
+    "port": 3000,
+    "key": "YOUR_SECRET_KEY_HERE"
+  },
+  "debug": true
+}
