@@ -18,6 +18,7 @@ app.post('/openai/completion/single', async (req, res) => {
     if (key === config.get('apiServer.key') && query) {
         // Send the message to OpenAI and return the response
         const response = await openAIManager.queryOpenAISingle(query);
+	res.set('Content-Type', 'text/plain; charset=UTF-8');
         res.send(response);
     } else {
         res.send('');
